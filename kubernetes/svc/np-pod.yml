@@ -6,10 +6,10 @@ metadata:
   labels:
     app: npapp
 spec:
-  name: nppod
-  image: nginx
-  ports:
-  - containerPort: 80
+ - name: nppod
+   image: nginx
+   ports:
+    - containerPort: 80
 
 ---
 apiVersion: v1
