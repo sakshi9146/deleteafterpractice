@@ -6,6 +6,7 @@ metadata:
   labels:
     app: npapp
 spec:
+ containers:
  - name: nppod
    image: nginx
    ports:
