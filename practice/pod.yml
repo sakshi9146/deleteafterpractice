@@ -2,9 +2,8 @@ apiVersion: v1
 
 kind: Pod
 metadata:
-  name: demoPod
-  labels:
-    app:pod
+  name: ngserver
+  
 spec:
   containers:
     -name: nginx
