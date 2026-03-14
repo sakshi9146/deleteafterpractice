@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: ci-svc
+  name: ci-pod
   labels:
     app: ci-app
 spec: 
