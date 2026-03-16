@@ -13,7 +13,7 @@ spec:
       type: RollingUpdate
       rollingUpdate:
         maxSurge: 1
-        maxUnavaliable: 1
+        maxUnavailable: 1
     selector:
       matchLabels:
         app: app-deploy
