@@ -24,7 +24,7 @@ variable "this_api" {
 }
 
 variable "this_sg" {
-    default = "sg-03a6a25c152380abe"
+    default = "sg-04de84b819df706c9"
 }
 
 variable "this_count" {
