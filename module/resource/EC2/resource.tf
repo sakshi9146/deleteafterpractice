@@ -11,7 +11,7 @@
 # blockname  "cloudproviername_resourcetype" "uniquename" { #arguments}
 
 
-resource  "aws_instance" "webserver" {
+resource  "aws_instance" "web" {
     ami = var.this_ami
     instance_type =  var.this_inst 
     key_name = var.this_key
