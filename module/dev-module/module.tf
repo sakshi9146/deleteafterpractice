@@ -6,8 +6,8 @@ module "ec2" {
      this_api = false    
      #this_sg = "sg-033f2559c156114d8"
      subnetid = module.vpc.aws_subnet
-vpc_id   = module.vpc.aws_vpc
- }
+     vpc_id = module.vpc.aws_vpc
+}
 
 
 module "vpc" {
