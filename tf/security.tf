@@ -5,7 +5,8 @@ provider "aws" {
 
 }
 
-
+provider  should be mention for one time in terraform directory 
+and also aws instance nmae should be different
 
 
 resource  "aws_instance" "webserver" {
