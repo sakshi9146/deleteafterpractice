@@ -1,5 +1,5 @@
 module "ec2" {
-     source = "/home/anup/deleteafterpractice/tfb34/module/resource/EC2"
+     source = "/home/deleteafterpractice/module/resource/EC2"
      this_ami = "ami-01b14b7ad41e17ba4"
      this_inst = "t3.micro"
      this_key = "b34"
@@ -11,7 +11,7 @@ module "ec2" {
 
 
 module "vpc" {
-   source = "/home/anup/deleteafterpractice/tfb34/module/resource/VPC"
+   source = "/home/deleteafterpractice/module/resource/VPC"      
    cidrbloc = "10.0.0.0/16"
    subnetbloc = "10.0.1.0/24"
 
